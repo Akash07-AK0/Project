@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #87ceeb, #98fb98); /* Blue and light green gradient */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+            width: 350px;
+            text-align: center;
+        }
+        h1 {
+            margin-bottom: 20px;
+            font-size: 36px;
+            color: #333;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: 600;
+        }
+        .button {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 15px 20px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 18px;
+            width: 100%;
+            margin: 10px 0;
+            text-transform: uppercase;
+            transition: background-color 0.3s ease;
+        }
+        .button:hover {
+            background-color: #0056b3;
+        }
+        .button.secondary {
+            background-color: #6c757d;
+        }
+        .button.secondary:hover {
+            background-color: #5a6268;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome</h1>
+        <button class="button" onclick="window.location.href='Register.html';">Sign Up</button>
+        <button class="button secondary" onclick="window.location.href='Login.html';">Login</button>
+    </div>
+</body>
+</html>
